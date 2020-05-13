@@ -1,0 +1,45 @@
+/* Css reset */
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: "open sans", sans-serif;}*
+
+body{
+	background-color: #1a91da;
+}
+
+
+/* Formatação do formulário */
+
+.form-busca{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container{
+	width: 30%;
+	height: 300px;
+	padding: 15px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.input-padrao{
+	width: 56%;
+	margin-right: 12px;
+	margin-bottom: 20px;
+	padding: 8px 12px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+
+.btn{
+	padding: 8px 12px;
+	background-color: #1a91da;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.btn:focus{
+	outline: none;
+}
